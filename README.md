@@ -1,18 +1,12 @@
-## Getting Started
+SimpletronV2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Overview
+This project implements a Simpletron Virtual Machine (SVM) that can execute a Simple Machine Language (SML) program. The Simpletron is designed for educational purposes to illustrate basic computer architecture concepts, including registers, memory management, and instruction execution.
 
-## Folder Structure
+Features
+-Reads integers from the user.
+-Executes a series of instructions defined in a Simple Machine Language (SML) program.
+-Displays the contents of memory and the state of registers after execution.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Requirements
+-Java Development Kit (JDK) version 8 or higher.
